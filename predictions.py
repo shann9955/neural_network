@@ -8,17 +8,6 @@ from keras import callbacks
 from sklearn.model_selection import train_test_split
 import numpy
 
-
-# model = load_model('best.h5') #TODO: research
-
-# categories=["Graphics cards", "Processors", "Monitors", "Cases", "Keyboard", "Mouse"]
-
-# num_recommendations=[]
-# num_recommendations_numpy=[]
-
-# prediction=model.predict(categories.count).argmax()
-# print(prediction)
-
 dataset = numpy.loadtxt("moves.csv", delimiter=",", skiprows=1)
 X = dataset[:,0:18]
 Y = dataset[:, 18]
