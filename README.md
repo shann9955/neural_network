@@ -1,1 +1,1 @@
-# neural_network
+# some smart stuff
